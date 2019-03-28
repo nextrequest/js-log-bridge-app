@@ -7,7 +7,7 @@ It uses [sinatra-cross_origin](https://github.com/britg/sinatra-cross_origin) to
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 
-Name of app in heroku papertrail-js-logs https://dashboard.heroku.com/apps/papertrail-js-logs
+Name of app in heroku => papertrail-js-logs https://dashboard.heroku.com/apps/papertrail-js-logs
 The current PAPERTRAIL_API_TOKEN is set to Ruben's api token.
 
 To connect the heroku app to our standalone papertrail account we needed to run `heroku drains:add syslog+tls://logs7.papertrailapp.com:40793`. More details on this [here](https://papertrailapp.com/systems/setup?type=app&platform=heroku)
